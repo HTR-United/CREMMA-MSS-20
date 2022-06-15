@@ -11,7 +11,7 @@
   </Description>
   
   <Tags>
-    <OtherTag ID="BT2473" LABEL="CustomZone" DESCRIPTION="block type CustomZone"/><OtherTag ID="BT2460" LABEL="MainZone" DESCRIPTION="block type MainZone"/>
+    <OtherTag ID="BT3899" LABEL="StampZone" DESCRIPTION="block type StampZone"/><OtherTag ID="BT2473" LABEL="CustomZone" DESCRIPTION="block type CustomZone"/><OtherTag ID="BT2460" LABEL="MainZone" DESCRIPTION="block type MainZone"/>
     <OtherTag ID="LT867" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/>
   </Tags>
   
@@ -110,7 +110,7 @@
                     WIDTH="1065"
                     HEIGHT="107">
             <Shape><Polygon POINTS="52 462 46 416 77 398 77 398 77 398 78 398 78 398 78 398 80 398 80 398 80 398 81 398 81 398 81 398 107 413 113 416 196 415 207 410 260 390 260 390 261 390 261 390 262 390 262 390 358 403 358 403 360 403 392 398 410 383 410 383 411 383 411 383 411 383 412 383 412 383 412 383 454 382 455 382 455 382 456 382 456 382 487 393 530 378 530 378 531 378 531 378 532 378 532 378 532 378 534 378 569 388 584 376 584 376 585 376 585 376 585 376 586 376 586 376 612 375 614 375 614 375 614 375 615 375 615 375 615 375 616 375 642 393 645 393 659 393 661 392 690 372 691 372 691 372 691 372 692 372 692 372 692 372 694 372 840 380 878 363 878 363 879 363 879 363 880 363 898 363 898 363 898 363 899 363 899 363 899 363 900 363 928 382 968 363 968 363 969 363 969 363 969 363 970 363 970 363 971 363 971 363 1010 378 1109 376 1111 418 1110 425 1024 428 1023 428 1023 428 1023 428 1023 428 1021 428 986 418 938 428 938 428 938 428 936 428 836 420 706 432 706 432 705 432 616 428 581 447 581 447 581 447 580 447 580 447 580 447 567 448 526 450 525 450 525 450 525 450 524 450 470 436 409 436 52 470"/></Shape>
-	    <String CONTENT="Maintenant et je dois la revoir"
+	    <String CONTENT="maintenant et je dois la revoir"
                     HPOS="46"
                     VPOS="363"
                     WIDTH="1065"
@@ -290,30 +290,13 @@
           
         </TextBlock>
         
-        <TextBlock HPOS="649"
+        <TextBlock HPOS="651"
                    VPOS="1368"
-                   WIDTH="319"
+                   WIDTH="317"
                    HEIGHT="65"
                    ID="eSc_textblock_7957c3ef"
-                   TAGREFS="BT2473">
-          <Shape><Polygon POINTS="649 1381 653 1433 959 1401 968 1368"/></Shape>
-          
-          
-          <TextLine ID="eSc_line_496ddf66"
-                    TAGREFS="LT867"
-                    BASELINE="665 1400 950 1380" 
-                    HPOS="661"
-                    VPOS="1358"
-                    WIDTH="289"
-                    HEIGHT="62">
-            <Shape><Polygon POINTS="665 1400 661 1378 948 1358 950 1380 950 1395 916 1395 911 1397 900 1406 899 1406 898 1406 861 1408 860 1408 859 1408 849 1403 843 1400 835 1405 821 1411 820 1411 819 1411 788 1408 757 1406 747 1412 739 1417 737 1417 736 1417 735 1417 734 1417 726 1413 722 1412 721 1415 716 1418 715 1418 714 1418 714 1420 666 1420"/></Shape>
-	    <String CONTENT="Archives nationales du Québec"
-                    HPOS="661"
-                    VPOS="1358"
-                    WIDTH="289"
-                    HEIGHT="62"></String>
-          </TextLine>
-
+                   TAGREFS="BT3899">
+          <Shape><Polygon POINTS="651 1381 653 1433 958 1400 968 1368"/></Shape>
           
         </TextBlock>
         

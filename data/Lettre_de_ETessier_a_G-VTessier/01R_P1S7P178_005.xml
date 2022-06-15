@@ -11,7 +11,7 @@
   </Description>
   
   <Tags>
-    <OtherTag ID="BT2473" LABEL="CustomZone" DESCRIPTION="block type CustomZone"/><OtherTag ID="BT2460" LABEL="MainZone" DESCRIPTION="block type MainZone"/>
+    <OtherTag ID="BT3899" LABEL="StampZone" DESCRIPTION="block type StampZone"/><OtherTag ID="BT2473" LABEL="CustomZone" DESCRIPTION="block type CustomZone"/><OtherTag ID="BT2460" LABEL="MainZone" DESCRIPTION="block type MainZone"/>
     <OtherTag ID="LT867" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/>
   </Tags>
   
@@ -110,7 +110,7 @@
                     WIDTH="1008"
                     HEIGHT="109">
             <Shape><Polygon POINTS="76 545 70 502 118 486 120 486 120 486 120 486 121 486 121 486 122 486 122 486 153 497 160 500 217 497 221 495 236 483 237 483 237 483 237 483 238 483 238 483 238 483 240 483 240 483 241 483 241 483 263 492 267 493 272 492 306 476 306 476 307 476 307 476 307 476 308 476 308 476 377 486 386 487 410 485 580 465 580 465 581 465 581 465 582 465 582 465 582 465 604 475 606 476 607 475 642 458 642 458 642 458 644 458 644 458 682 456 684 456 684 456 684 456 742 468 746 468 747 468 779 452 779 452 779 452 780 452 780 452 781 452 781 452 781 452 783 452 821 465 824 465 833 463 858 460 876 446 878 446 878 446 878 446 879 446 879 446 879 446 880 446 880 446 881 446 881 446 914 458 936 458 963 458 964 457 1003 441 1003 441 1004 441 1004 441 1004 441 1005 441 1005 441 1006 441 1006 441 1038 452 1074 452 1078 488 1076 496 951 493 945 498 945 500 945 500 944 500 944 500 944 500 943 500 943 500 943 500 750 508 749 508 749 508 747 508 747 508 732 503 649 507 641 515 641 515 641 515 640 515 640 515 639 515 639 515 639 515 637 515 551 513 545 518 545 520 545 520 544 520 544 520 544 520 542 520 542 520 541 520 541 520 505 516 492 523 491 523 491 523 490 523 490 523 490 523 489 523 489 523 487 523 487 523 487 523 475 517 391 531 391 531 390 531 327 530 278 538 278 538 277 538 277 538 277 538 276 538 276 538 261 532 231 541 230 541 230 541 230 541 228 541 228 541 196 537 76 550"/></Shape>
-	    <String CONTENT="Nous sommes à la recherche"
+	    <String CONTENT="nous sommes à la recherche"
                     HPOS="70"
                     VPOS="441"
                     WIDTH="1008"
@@ -278,25 +278,8 @@
                    WIDTH="340"
                    HEIGHT="64"
                    ID="eSc_textblock_39b50450"
-                   TAGREFS="BT2473">
+                   TAGREFS="BT3899">
           <Shape><Polygon POINTS="651 1409 660 1467 985 1458 991 1403"/></Shape>
-          
-          
-          <TextLine ID="eSc_line_d11f9799"
-                    TAGREFS="LT867"
-                    BASELINE="665 1435 952 1431" 
-                    HPOS="661"
-                    VPOS="1400"
-                    WIDTH="290"
-                    HEIGHT="87">
-            <Shape><Polygon POINTS="664 1435 661 1407 735 1401 736 1401 778 1407 794 1408 798 1407 810 1400 811 1400 813 1400 814 1400 840 1407 845 1407 948 1407 951 1430 951 1477 664 1487"/></Shape>
-	    <String CONTENT="Archives nationales du Québec"
-                    HPOS="661"
-                    VPOS="1400"
-                    WIDTH="290"
-                    HEIGHT="87"></String>
-          </TextLine>
-
           
         </TextBlock>
         
