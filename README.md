@@ -1,3 +1,5 @@
+<img src="./cremma_mss-20.png" width="200" align=right>
+
 CREMMA - A repository of 20th century manuscripts
 =================================================
 
