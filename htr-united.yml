@@ -1,49 +1,15 @@
-schema: https://htr-united.github.io/schema/2022-04-15/schema.json
-title: CREMMA Manuscrits du 20e
-url: https://github.com/HTR-United/CREMMA-MSS-20
-project-name: CREMMA
 authors:
-- name: "Cl\xE9rice"
+- name: Clérice
+  roles:
+  - project-manager
+  - quality-control
   surname: Thibault
+- name: Chagué
   roles:
   - project-manager
   - quality-control
-- name: "Chagu\xE9"
   surname: Alix
-  roles:
-  - project-manager
-  - quality-control
-description: 'Manuscripts of the 20th century
-
-  '
-language:
-- fra
-script:
-- iso: Latn
-script-type: only-manuscript
-time:
-  notBefore: '1900'
-  notAfter: '1999'
-hands:
-  count: 1-per-folder
-  precision: exact
-license:
-- name: CC-BY 4.0
-  url: https://creativecommons.org/licenses/by/4.0/
-format: Alto-XML
-volume:
-- metric: characters
-  count: 5764
-- metric: files
-  count: 13
-- metric: lines
-  count: 224
-- metric: regions
-  count: 25
-transcription-guidelines: "Abr\xE9viations conserv\xE9es."
-production-software: eScriptorium + Kraken
 characters:
-  mode: NFKD
   members:
   - e
   - a
@@ -59,15 +25,15 @@ characters:
   - c
   - m
   - p
-  - "\u0301"
+  - ́
   - <
   - '>'
-  - ''''
+  - "'"
   - v
   - q
   - ','
   - .
-  - "\u0300"
+  - ̀
   - b
   - g
   - h
@@ -77,7 +43,7 @@ characters:
   - J
   - '1'
   - '-'
-  - "\u0302"
+  - ̂
   - M
   - A
   - E
@@ -94,7 +60,7 @@ characters:
   - B
   - S
   - '0'
-  - "\u0327"
+  - ̧
   - P
   - G
   - R
@@ -112,7 +78,7 @@ characters:
   - ;
   - $
   - V
-  - "\u0153"
+  - œ
   - '['
   - '?'
   - ']'
@@ -121,3 +87,35 @@ characters:
   - (
   - )
   - '6'
+  mode: NFKD
+description: "Manuscripts of the 20th century\n"
+format: Alto-XML
+hands:
+  count: 1-per-folder
+  precision: exact
+language:
+- fra
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: CREMMA
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1999'
+  notBefore: '1900'
+title: CREMMA Manuscrits du 20e
+transcription-guidelines: Abréviations conservées.
+url: https://github.com/HTR-United/CREMMA-MSS-20
+volume:
+- count: 5764
+  metric: characters
+- count: 13
+  metric: files
+- count: 224
+  metric: lines
+- count: 25
+  metric: regions
